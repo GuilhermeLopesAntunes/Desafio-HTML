@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulas HTML DIO</title>
+</head>
+<body>
+    <h1 id="Introducao">Introdução ao HTML na Prática</h1>
+    <hr>
+    <h2>Índices</h2>
+    <ul>
+        <li><a href="#Inspetor">Inspetor de Elementos</a></li>
+        <li><a href="#Estrutura">Estrutura Básica do HTML</a></li>
+        <li><a href="#Tags">Tags</a></li>
+        <li><a href="#Listas">Listas</a></li>
+        <li><a href="#Links">Links</a></li>
+    </ul>
+    <hr>
+    <h2 id="Inspetor">Inspetor de Elementos</h2>
+    <a href="#Introducao"><small>Voltar</small></a>
+    <p>O inspetor de elementos é uma ferramenta utilizada para obter informações de uma página HTML, permitindo até mesmo a alteração do seu conteúdo e a observação da construção da página em questão.</p>
+    <hr>
+    <h2 id="Estrutura">Estrutura Básica do HTML</h2>
+    <a href="#Introducao"><small>Voltar</small></a>
+    <p>O HTML funciona por meio de tags. Para iniciar um projeto HTML, utilizamos a tag < html > , indicando ao navegador que o tipo de arquivo trabalhado é HTML. A estrutura interna básica possui duas tags, < head > e < body >.</p>
+    <h3>1.Tag head</h3>
+    <p>A tag < head > é responsável pela parte não visível para o usuário na página HTML. Essa seção contém informações que são carregadas antes do usuário entrar na página (no lado do cliente). Um exemplo de conteúdo comumente encontrados dentro da tag < head > é a tag < title > que define o título da página, que é exibido na barra de título do navegador.</p>
+    <h3>2.Tag body</h3>
+    <p>A tag < body >  é responsável pelo conteúdo que é visível para o usuário na página HTML. Esta seção contém informações que o usuário pode facilmente encontrar e interagir. Alguns exemplos de conteúdo comumente encontrados dentro da tag < body > incluem:
+        <ul>
+            <li>Texto: Parágrafos, cabeçalhos, listas e outros elementos de texto que compõem o conteúdo da página.</li>
+            <li> Imagens: Elementos visuais que são exibidos na página, utilizando a tag < img >.</li>
+            <li>Links: Hiperlinks criados com a tag < a > que permitem a navegação para outras páginas ou recursos.< /p ></li>
+        </ul>
+    <hr>
+    <h2 id="Tags">Tags</h2>
+    <a href="#Introducao"><small>Voltar</small></a>
+    <p>As tags são elementos fundamentais que são usados para estruturar o conteúdo em uma página da web. As tags são cercadas por colchetes (<>) e geralmente ocorrem em pares de abertura e fechamento, embora algumas tags não exijam uma tag de fechamento. Algumas das principais tags:</p>
+    <ul>
+        <li>Strong: A tag strong é utilizada para destacar alguma parte do texto <br> EX:<br> Essa parte é <strong>Importante</strong></li>
+        <li>Input: A tag input é uma tag HTML usada para criar campos interativos em formulários web. Ela é um elemento que não possui uma tag de fechamento. Pode ter diversos tipos, dependendo do tipo de entrada desejado. Alguns dos atributos mais comuns incluem:
+            <ul>
+                <li>type: Define o tipo de campo de entrada. Pode ser "text" para caixas de texto, "checkbox" para caixas de seleção, "radio" para botões de rádio, "submit" para botões de envio, entre outros.</li>
+                <li>name: Especifica o nome do campo, que será usado para identificar o valor do campo quando o formulário for enviado.</li>
+            </ul>
+            <p>EX: <br><input type="text"></p>
+        <li>Img: A tag < img > em HTML é usada para incorporar imagens em uma página web. Aqui estão os principais atributos associados a essa tag:
+            <ul>
+                <li> src (source): Este atributo especifica o caminho (URL) da imagem. Pode ser um caminho relativo ou absoluto para a imagem.</li>
+                <li> alt (alternative text): Este atributo fornece um texto alternativo para a imagem, que é exibido se a imagem não puder ser carregada. Além disso, é utilizado por leitores de tela para acessibilidade.</li>
+                <li> width e height: Esses atributos especificam a largura e a altura da imagem, respectivamente. Eles podem ser definidos em pixels ou porcentagens.</li>
+                <li>title: Este atributo fornece um título para a imagem. O título é frequentemente exibido quando o usuário passa o mouse sobre a imagem.</li>
+            </ul>
+        <p>EX:<br> <img width="250" src="https://hermes.dio.me/assets/diome/logo.png" alt="Imagem DIO"> </p>
+    
+            
+    </ul>
+    <h3>Atributos das Tags</h3>
+    <p>Os atributos HTML são informações adicionais fornecidas em tags HTML para modificar ou configurar o comportamento de um elemento. Eles são sempre incluídos dentro da tag de abertura do elemento e têm a forma "nome="valor"". Alguns exemplos de atributos:</p>
+    <ul>
+        <li>id: Define um identificador exclusivo para o elemento.</li>
+        <li>class: Define uma ou mais classes que podem ser usadas para aplicar estilos ou selecionar elementos com CSS ou JavaScript.</li>
+        <li>src: Define o caminho (URL) da imagem.</li>
+        <li>alt: Fornece um texto alternativo para a imagem, útil para acessibilidade.</li>
+            
+            
+        
+    </ul> 
+    <hr>
+    <h2 id="Listas">Listas</h2>
+    <a href="#Introducao"><small>Voltar</small></a>    
+     <p>As listas podem ser classificadas em dois tipos principais: listas ordenadas, representadas pela tag < ol >, e listas não ordenadas, representadas pela tag < ul> . Em ambas as categorias, é essencial incluir os itens individuais utilizando a tag < li > para indicar cada elemento da lista.<br> Ex: <br> Lista não ordenada: </p>
+     <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+     </ul>
+     <p>Lista ordenada:</p>
+     <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+     </ol>
+     <hr>
+     <h2 id="Links">Links</h2>
+     <a href="#Introducao"><small>Voltar</small></a>
+     <p>links são elementos que permitem a navegação entre diferentes páginas da web ou recursos online. A tag usada para criar links é < a >, e ela pode ser configurada com vários atributos.</p>
+     <p>< a href="https://www.exemplo.com">Exemplo.com</a ></p>
+     <ul>
+        <li>href: Especifica o URL de destino para o link. Pode ser uma URL absoluta, relativa ou um link para um elemento no mesmo documento.</li>
+        <li>target: Define onde o link será aberto. Por exemplo, _blank abre o link em uma nova janela ou guia.</li>
+        <li>rel: Indica a relação entre a página atual e a página vinculada. O valor "nofollow" é usado para dizer aos motores de busca que não sigam o link.</li>
+        <li>title: Fornece um texto de dica que é exibido quando o usuário passa o mouse sobre o link.</li>
+     </ul>
+     <p>EX:</p>
+     <a href="http://Google.com" target="_blank">GOOGLE</a>
+ </html>
